@@ -1,0 +1,16 @@
+SELECT-recht: Dit recht stelt een gebruiker in staat om gegevens te lezen en op te vragen in tabellen binnen de database.
+Gebruikers met SELECT-rechten kunnen zoekopdrachten uitvoeren om informatie op te halen,
+maar ze kunnen de gegevens niet wijzigen.
+
+INSERT-recht: Het INSERT-recht staat gebruikers toe nieuwe gegevens toe te voegen aan de database. 
+Gebruikers kunnen nieuwe rijen of records invoegen in de tabellen. Dit is handig om gegevens toe te voegen, 
+bijvoorbeeld bij het maken van nieuwe records.
+
+UPDATE-recht: Gebruikers met UPDATE-rechten hebben de bevoegdheid om bestaande gegevens in de database te wijzigen.
+Ze kunnen specifieke records bijwerken met nieuwe informatie,
+bijvoorbeeld om fouten te corrigeren of gegevens te actualiseren.
+
+EXECUTE-recht: Hoewel dit recht vaak wordt geassocieerd met opgeslagen procedures of functies,
+is het geen standaard MySQL-databasebeheerrecht. Dit recht stelt gebruikers in staat om opgeslagen procedures of functies uit te voeren.
+Het is van toepassing wanneer de database procedures of functies bevat en gebruikers toestemming moeten hebben om ze uit te voeren.
+
