@@ -1,0 +1,11 @@
+adress:
+
+straat(string): dorpstraat
+nummer(int): 42
+postcode(varchar)1901EL
+stad(string): castricum
+
+primary key om te kunnen filteren
+not null omdat het een essentiel iets is, hier filter je namelijk op
+unsigned omdat er geen negatief nummer in mag staan
+unique omdat je wil dat deze elke keer anders is

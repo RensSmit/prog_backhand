@@ -1,0 +1,14 @@
+
+
+4 Rechten in SQL Workbench:
+
+1: Alter, kolommen in een al bestaande tabel kan je toevoegen verwijderen of aanpassen met het 'alter' command. dit heb je nodig als Admin.
+
+
+2: Event, met het event recht kan je gebeurtenissen aanmaken verwijderen of aanpassen die te maken hebben met het beheren van de database. Dit is ies wat ik niet aan iedereen zou geven aangezien het makkelijk gegevens kan beinvloeden. 
+
+
+3: Drop, met 'drop' kan je dingen uit de database verwijderen, dit is een ding wat hackers denk ik zouden gebruiken om gegevens van bedrijven die ze willen targeten te verwijderen.
+
+
+4: Create temporary tables, hiermee kan je tijdelijke tabellen aamaken. gevaarlijk hieraan is is dat `de gegevens ergens kander kunnen worden opgeslagen maar ze na de sessie wel uit de database zelf gaan, dit id iets dat ik denk dat een hacker ermee zou kunnen.
